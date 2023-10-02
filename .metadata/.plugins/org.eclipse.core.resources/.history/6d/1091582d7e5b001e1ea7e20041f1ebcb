@@ -1,0 +1,14 @@
+
+public class ShoppingCart {
+	private PaymentStrategy paymentStrategy;
+	
+	public ShoppingCart(){
+		this.paymentStrategy = CashStrategy;
+	}
+
+    public void setPaymentStrategy(PaymentStrategy strategy) {
+        this.paymentStrategy = strategy;
+    }
+	
+
+}

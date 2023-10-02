@@ -1,0 +1,10 @@
+
+public class WindowsMenu implements Menu{
+	
+	
+	public void render() {
+		
+		
+	}
+
+}

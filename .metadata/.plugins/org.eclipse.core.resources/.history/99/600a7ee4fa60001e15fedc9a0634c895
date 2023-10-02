@@ -1,0 +1,18 @@
+
+class MacFactory implements GUIFactory {
+	@Override
+    public Button createButton() {
+        return new MacButton();
+    }
+
+	@Override
+	public Menu createMenu() {
+		return MacMenu();
+	}
+
+	private Menu MacMenu() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
